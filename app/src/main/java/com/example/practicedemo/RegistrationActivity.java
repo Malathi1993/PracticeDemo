@@ -28,6 +28,7 @@ public class RegistrationActivity extends AppCompatActivity {
         MotherName=findViewById(R.id.editText10);
         ifAlready=findViewById(R.id.textView);
         Register=findViewById(R.id.button);
+
         Register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
